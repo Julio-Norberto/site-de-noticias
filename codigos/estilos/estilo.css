@@ -1,0 +1,75 @@
+/* Limpando formatação padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #FFF url(../imagens/fundo.png) repeat-x;
+}
+
+/* estilizando cabeçalho */
+#container {
+    width: 820px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    height: 250px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 15px;
+}
+
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+
+/* Estilizando o menu horizontal */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#cabecalho ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#cabecalho ul li {
+    float: left;
+}
+
+#cabecalho ul a {
+    display: block;
+    padding: 0 1.3em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #FFF;
+    background: url(../imagens/divisor.png) repeat-y;
+}
+
+#cabecalho ul a:hover {
+    color: #69001d;
+}
+
+/* Marcando a página atual */
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.inter #navegacao a#inter,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
