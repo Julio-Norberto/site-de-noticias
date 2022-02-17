@@ -90,13 +90,11 @@ body.fotos #navegacao a#fotos
 #duas-colunas #primario {
     width: 600px;
     float: left;
-    background: blue;
     margin: 0 0 20px 200px;
 }
 
 #uma-coluna #primario {
     width: 800px;
-    background: blue;
     margin: 0 0 20px 0;
 }
 
