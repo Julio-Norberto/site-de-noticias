@@ -7,8 +7,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="estilos/estilo.css">
 </head>
-<body class="home">
+<body id="tres-colunas" class="home">
+    <!-- INICIO DO CONTAINER -->
     <div id="container">
+
+        <!-- TOPO -->
         <div id="cabecalho">
             <h1 class="logo">Notícias cidade</h1>
 
@@ -36,8 +39,166 @@
                 </li>
             </ul>
         </div>
-    </div>
+        <!-- FIM DO TOPO -->
 
+        <!-- INICIO DO CONTEÚDO -->
+        <div id="conteudo">
+
+            <!-- INICIO PRIMARIO -->
+            <div id="primario">
+
+                <div class="caixa destaque">
+                    <h2>Destaques</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova legislação</h3>
+                        <img class="imagem-principal" src="./imagens/taxi.jpg" width="100%" alt="nova legislação">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/tecnologia.jpg" width="80" alt="tecnologias">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/tecnologia.jpg" width="80" alt="tecnologias">
+                                    <h3>Crise Financeira</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/tecnologia.jpg" width="80" alt="tecnologias">
+                                    <h3>Terceira Guerra</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/tecnologia.jpg" width="80" alt="tecnologias">
+                                    <h3>Metaverso</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM PRIMARIO -->
+
+            <!-- INICIO SECUNDÁRIO -->
+            <div id="secundario">
+
+                <div class="caixa destaque">
+                    <h2>Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com Flávio Norberto</h3>
+                        <img class="imagem-principal" src="./imagens/doutor.jpg" width="100%" alt="foto do doutor">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>Notícias recentes</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/cidade.jpg" width="80" alt="tecnologias">
+                                    <h3>NFT</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/mundo.jpg" width="80" alt="tecnologias">
+                                    <h3>WEB 3.0</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/tecnologia.jpg" width="80" alt="tecnologias">
+                                    <h3>Novo Marketing</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./imagens/taxi.jpg" width="80" alt="tecnologias">
+                                    <h3>Elixir</h3>
+                                    <p>Lorem ipsum dolor...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM SECUNDÁRIO -->
+
+            <!-- INICIO DA LATERAL -->
+            <div id="lateral">
+
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li> <a href="">Júlio César</a> </li>
+                            <li> <a href="">Flávio Norberto</a> </li>
+                            <li> <a href="">Pedro Augusto</a> </li>
+                            <li> <a href="">Vitor da Silva</a> </li>
+                            <li> <a href="">Micael Roberto</a> </li>
+                            <li> <a href="">Bethoven Dog</a> </li>
+                            <li> <a href="">Lilly Dog</a> </li>
+                            <li> <a href="">Mag Dog</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>Newsletter</h2>
+                    <div class="caixa-conteudo">
+                        
+                        <form action="">
+                            <div>
+                                <label for="email">E-mail:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" name="submit" value="Cadastrar">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DA LATERAL -->
+
+        </div>
+        <!-- FIM DO CONTEÚDO -->
+
+    </div>
+    <!-- FIM DO CONTAINER -->
+
+    <!-- RODAPÉ -->
+    <div id="container-rodape" style="clear: both;">
+        <div id="rodape">
+            &copy; Copyright 2022 Todos os direitos reservados
+        </div>
+    </div>
 
 </body>
 </html>

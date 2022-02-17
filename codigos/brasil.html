@@ -7,8 +7,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="estilos/estilo.css">
 </head>
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
+    <!-- INICIO DO CONTAINER -->
     <div id="container">
+
+        <!-- TOPO -->
         <div id="cabecalho">
             <h1 class="logo">Notícias cidade</h1>
 
@@ -36,4 +39,64 @@
                 </li>
             </ul>
         </div>
+        <!-- FIM DO TOPO -->
+
+        <!-- INICIO DO CONTEÚDO -->
+        <div id="conteudo">
+
+            <div id="primario">Primário</div>
+            
+            <!-- INICIO DA LATERAL -->
+            <div id="lateral">
+
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li> <a href="">Júlio César</a> </li>
+                            <li> <a href="">Flávio Norberto</a> </li>
+                            <li> <a href="">Pedro Augusto</a> </li>
+                            <li> <a href="">Vitor da Silva</a> </li>
+                            <li> <a href="">Micael Roberto</a> </li>
+                            <li> <a href="">Bethoven Dog</a> </li>
+                            <li> <a href="">Lilly Dog</a> </li>
+                            <li> <a href="">Mag Dog</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>Newsletter</h2>
+                    <div class="caixa-conteudo">
+                        
+                        <form action="">
+                            <div>
+                                <label for="email">E-mail:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" name="submit" value="Enviar">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DA LATERAL -->
+
+        </div>
+        <!-- FIM DO CONTEÚDO -->
+
     </div>
+    <!-- FIM DO CONTAINER -->
+
+    <!-- RODAPÉ -->
+    <div id="container-rodape" style="clear: both;">
+        <div id="rodape">
+            &copy; Copyright 2022 Todos os direitos reservados
+        </div>
+    </div>
+
+</body>
+</html>
